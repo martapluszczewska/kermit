@@ -1,0 +1,50 @@
+* {
+    margin: 0 auto;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    text-align: center;
+    font-family: 'Press Start 2P';
+}
+
+header {
+    width: 400px;
+    padding: 5px;
+    user-select: none;
+}
+
+#buttons {
+    text-transform: uppercase;
+}
+
+#text {
+    padding: 10px;
+}
+
+.button {
+    padding: 10px;
+    border: 2px solid #fff;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #003300;
+    color:chartreuse;
+}
+
+#frog {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    user-select: none;
+}
